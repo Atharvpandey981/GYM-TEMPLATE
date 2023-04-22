@@ -1,0 +1,24 @@
+.contact-section{
+    background-color: var(--bg-color-dark);
+    outline: none;
+}
+
+.c-s-content>i{
+    clip-path: circle(50% at 50% 50%);
+    color: #ffffff;
+}
+
+.c-s-content>span{
+    clip-path: circle(50% at 50% 50%);
+    width: 6rem;
+    height: 6rem;
+   background-color: var(--primary-color);
+   gap: 0rem;
+}
+.contact-section>.container{
+    gap: 5em;
+    padding: 2rem 0;
+}
+.c-s-content>p{
+    padding: 0 2rem;
+}

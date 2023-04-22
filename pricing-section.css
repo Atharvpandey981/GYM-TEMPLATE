@@ -1,0 +1,78 @@
+
+.pricing-section {
+    background-color: var(--bg-color);
+
+}
+
+.pricing-section>.container>h1 {
+    font-size: 3rem;
+    padding: 3rem 0 0 0;
+    color: var(--primary-color);
+}
+
+.pricing-section>.container>h2 {
+    font-size: 2.5rem;
+}
+
+.p-s-main{
+    gap: 5rem;
+    padding: 6rem 0;
+}
+.p-s-content {
+    width: 35rem;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2rem solid var(--primary-color);
+    font-family: 'Roboto';
+    text-align: center; 
+}
+
+
+.p-s-content>h2 {
+    font-size: 5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.p-s-content>h3 {
+    font-size: 5rem;
+    letter-spacing: .3rem;
+}
+
+.p-s-content>span>p {
+    font-weight: 600;
+}
+
+.p-s-content>ul>li {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.5rem 0;
+}
+
+.p-s-content>ul {
+    padding: 2rem 0;
+}
+
+.p-s-content>button {
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    width: 15rem;
+    height: 4rem;
+border: .2rem solid var(--primary-color);
+
+    font-size: 1.5rem;
+    margin: 2rem;
+    cursor: pointer;
+    
+    transition: all .3s;
+}
+.p-s-content>button:hover{
+background-color: var(--primary-color);
+
+}
+
+.p-s-main>:nth-child(3)>h3{
+padding: 0 0 0 2rem;
+}

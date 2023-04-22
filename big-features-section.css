@@ -1,0 +1,126 @@
+.big-features-section{
+   background-color: var(--bg-color);
+}
+
+.big-features-section>.container>h1{
+    font-size: 3rem;
+    padding: 3rem 0 0 0;
+    color: var(--primary-color);
+}
+.big-features-section>.container>h2{
+    font-size: 2.5rem;
+}
+
+
+.bf-s-row1{
+    padding: 5rem 0 0 0 ;
+    gap: 5rem;
+}
+
+.bf-s-row1-content>img{
+    clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 95%);
+    width: 35rem;
+    z-index: 999;
+    border-bottom: 3rem solid white;
+}
+
+.bf-s-row1-content2{
+    width: 35rem;
+    height: 10rem;
+    align-items: normal;
+    justify-content: flex-end;
+    background-color: var(--bg-color-dark);
+    position: relative;
+    bottom: 5rem;
+}
+
+.bf-s-row1-content2>button{
+    outline: none;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0 0 2rem 29rem;
+    color: white;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.bf-s-row1-content2>button:hover{
+    background-color: var(--primary-color);
+}
+
+.bf-s-row1-content2>:nth-child(1){
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: left;
+
+}
+.bf-s-row1-content2>:nth-child(2){
+    font-weight: 600;
+    text-align: left;
+
+}
+
+
+
+
+
+.bf-s-row2{
+    padding: 5rem 0 0 0 ;
+    gap: 10rem;
+}
+
+
+.bf-s-row2>:nth-child(2)>:nth-child(1){
+width: 45.2rem;
+}
+.bf-s-row2-content>img{
+    clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 95%);
+    width: 45.2rem;
+    z-index: 999;
+    border-bottom: 3rem solid white;
+}
+
+.bf-s-row2-content2{
+    width: 45rem;
+    height: 10.5rem;
+    align-items: normal;
+    justify-content: flex-end;
+    background-color: var(--bg-color-dark);
+    position: relative;
+    bottom: 6.4rem;
+}
+
+.bf-s-row2-content2>button{
+    outline: none;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0 0 2rem 39rem;
+    color: white;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.bf-s-row2-content2>button:hover{
+    background-color: var(--primary-color);
+}
+
+.bf-s-row2-content2>:nth-child(1){
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: left;
+
+}
+.bf-s-row2-content2>:nth-child(2){
+    font-weight: 600;
+    text-align: left;
+
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+/* -------------------------reset start----------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* -----------------------reset end----------------------------- */
+
+/* ---------------------variables start------------------------------- */
+:root {
+    --primary-color: #f36100;
+    --bg-color: #151515;
+    --bg-color-dark: #0a0a0a;
+    --primary-padding: 2rem;
+    --oswald-font: 'Oswald', sans-serif;
+    --Roboto-font: 'Roboto', sans-serif;
+}
+
+/* -----------------variables end------------------------------------------- */
+
+body {
+    font-family: var(--Roboto-font);
+    color: white;
+    transition: all 1s; 
+}
+
+h1 {
+    font-family: var(--oswald-font);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: var(--oswald-font);
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--oswald-font);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: var(--primary-padding);
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+/* ---------------------------utilities------------------------ */
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-flex-row {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-flex-column {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 125rem;
+    margin: 0 auto;
+   
+}

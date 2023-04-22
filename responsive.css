@@ -1,0 +1,110 @@
+@media screen and (min-width:1900px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width:1700px) and (max-width:1900px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1348px) {
+    html {
+        font-size: 50%
+    }
+}
+
+@media screen and (max-width:1000px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:800px) {
+*{
+    flex-wrap: wrap;
+}
+
+
+
+
+    .f-s-content {
+        width: 30rem;
+    }
+
+    .f-s-main {
+        justify-content: center;
+    
+    }
+   .bf-s-row1-content>img{
+    width: 45.2rem;
+   }
+
+   .bf-s-row1-content>div{
+    width: 45.2rem;
+   }
+   
+
+
+   .contact-section>div{
+    flex-direction: column;
+   }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:610px) {
+    nav>.social-links{
+        display: none;
+    }
+    .social-links2{
+        padding: 2rem 0;
+    }
+    .social-links2>a>i{
+        font-weight: 600;
+        padding: 0 1rem;
+        color: white;
+        transition: all .3s;
+    }
+    
+    .social-links2>a>i:hover{
+        color: var(--primary-color);
+    }
+}

@@ -1,0 +1,86 @@
+.hero-section {
+    background: url(assets/asset7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65rem;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo>img{
+    width: 13rem;
+}
+
+nav>ul>li>a{
+    transition: all .3s;
+}
+
+nav>ul>li>a:active{
+    text-decoration: line-through .3rem;
+    color: var(--primary-color);
+
+}
+
+nav>ul>li>a:hover {
+    color: var(--primary-color);
+    text-decoration: line-through .3rem;
+}
+.social-links>a>i{
+    font-weight: 600;
+    padding: 0 1rem;
+    color: white;
+    transition: all .3s;
+}
+
+.social-links>a>i:hover{
+    color: var(--primary-color);
+}
+nav{
+    justify-content: space-between;
+    gap: 5rem;
+  padding: var(--primary-padding);
+}
+
+.h-s-main{
+    align-items: flex-end;
+   padding: 15rem 5rem 0 0;
+}
+
+.h-s-main>h1>strong{
+color: var(--primary-color);
+}
+
+
+.h-s-main>h3{
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.h-s-main>h1{
+    font-size: 7rem;
+}
+.h-s-main>h2{
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.h-s-main>button{
+        outline: none;
+        border: none;
+        width: 10rem;
+        height: 4rem;
+        color: white;
+        font-size: 1.5rem;
+        background-color: var(--primary-color);
+    transition: all .3s;
+
+}
+
+.h-s-main>button:hover{
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+}

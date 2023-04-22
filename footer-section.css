@@ -1,0 +1,50 @@
+.footer-section{
+    background-color: var(--bg-color);
+   
+}
+
+.fo-s-content>p{
+text-align: center;
+width: 35rem;
+}
+ .fo-s-content>img{
+    padding: 0 auto;
+ }
+
+ .fo-s-upper-content{
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 5rem 0;
+ }
+
+
+
+ .fo-s-content>ul>li{
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 000;
+   cursor: pointer;
+   padding: .5rem 0 ;
+ }
+
+ .fo-s-content>h6{
+   font-size: 1.5rem;
+ }
+
+ .fo-s-lower-content>hr{
+ background-color: white;
+   outline: none;
+   border: none;
+   height: .1rem;
+   margin: 5rem 0;
+ }
+
+ .fo-s-lower-content>p{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 0;
+ }
+ 
+ .fo-s-lower-content>p>strong{
+  color: var(--primary-color);
+ }

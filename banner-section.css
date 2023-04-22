@@ -1,0 +1,36 @@
+.banner-section{
+    background-image: url(assets/asset8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 55rem;
+}
+
+.banner-section>.container>h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.banner-section>.container>h3{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #9b9b9b;
+}
+
+.banner-section>.container>button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    width: 18rem;
+    height: 5rem;
+    margin: 5rem 0 0 0 ;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.banner-section>.container>button:hover{
+    background-color: var(--primary-color);
+    border-radius: .2rem;
+}
