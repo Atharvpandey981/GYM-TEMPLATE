@@ -28,9 +28,6 @@
     flex-wrap: wrap;
 }
 
-
-
-
     .f-s-content {
         width: 30rem;
     }
@@ -52,7 +49,7 @@
    .contact-section>div{
     flex-direction: column;
    }
-
+}
 @media screen and (max-width:610px) {
     nav>.social-links{
         display: none;
