@@ -37,19 +37,30 @@
     
     }
    .bf-s-row1-content>img{
-    width: 45.2rem;
+    width: 45.3rem;
    }
 
+   .bf-s-row2-content>img{
+    width: 45rem;
+   }
    .bf-s-row1-content>div{
     width: 45.2rem;
+    bottom: 6.3rem;
    }
    
-
+   .bf-s-row1-content2>button{
+    margin: 0 0 2rem 38rem;
+   }
 
    .contact-section>div{
     flex-direction: column;
    }
+
+   
+
 }
+
+
 @media screen and (max-width:610px) {
     nav>.social-links{
         display: none;
