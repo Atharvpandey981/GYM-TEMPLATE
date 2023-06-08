@@ -1,6 +1,6 @@
 # GYM-TEMPLATE
 ## `About`
-* This is my third frontend project.
+* This is my second frontend project.
 * This is copy of a gym template's homepage , here's the template: <https://preview.colorlib.com/theme/gymlife/>
 ## `Technologies Used`
 * I only used HTML,CSS in this project. 
