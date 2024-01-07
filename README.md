@@ -1,4 +1,6 @@
 # GYM-TEMPLATE
+## `LINK`
+* Here: <https://atharvpandey981.github.io/GYM-TEMPLATE/>
 ## `About`
 * This is my second frontend project.
 * This is copy of a gym template's homepage , here's the template: <https://preview.colorlib.com/theme/gymlife/>
